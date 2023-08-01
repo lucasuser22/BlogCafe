@@ -40,27 +40,30 @@
     </header>
 
     <main class="contenedor">
-        <h3 class="centrar-texto">Sobre nosotros</h3>
+        <h3 class="centrar-texto">Contacto</h3>
 
-        <div class="sobre-nosotros">
-            <div class="sobre-nosotros__imagen">
-                <img src="img/nosotros.jpg" alt="imagen nosotros">
+        <div class="contacto-bg"></div>
+
+        <form class="formulario">
+            <div class="campo">
+                <label for="nombre">Nombre</label>
+                <input type="text" placeholder="Tu Nombre" id="nombre">
+            </div>
+            <div class="campo">
+                <label for="email">Tu E-mail</label>
+                <input type="email" placeholder="Tu E-mail" id="email">
+            </div>
+            <div class="campo">
+                <label for="mensaje">Mensaje</label>
+                <textarea type="text" placeholder="mensaje" id="mensaje"></textarea>
             </div>
 
-            <div class="sobre-nosotros__texto">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium, modi soluta? Quo, eum. Rem
-                    ad
-                    consequuntur asperiores aliquid similique quisquam magni ratione tempore quas! Fugiat at
-                    expedita cum
-                    maiores neque.</p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium vero quia exercitationem
-                    reprehenderit tempore placeat quos sit ipsum quas tenetur corrupti, iusto, dolor, omnis dolorem
-                    molestias nostrum architecto! Eligendi, sapiente.
-
-                </p>
+            <div class="campo">
+                <input type="submit" value="Enviar" class="boton boton--primario">
             </div>
-        </div>
+
+        </form>
+       
     </main>
 
     <footer class="footer">
